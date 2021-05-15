@@ -15,6 +15,8 @@ export default {
 <style lang="sass" scoped>
 
   .container
+    width: 100%
+
     margin: 0 1.5rem
 
     @media (min-width: 1280px)

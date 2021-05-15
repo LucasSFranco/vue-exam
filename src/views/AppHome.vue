@@ -3,7 +3,7 @@
     <AppContainer>
       <h1 class="title">News Portal</h1>
     </AppContainer>
-    <AppContainer>
+    <AppContainer class="main">
       <AppNewsList />
     </AppContainer>
   </main>
@@ -28,6 +28,13 @@ export default {
 <style lang="sass" scoped>
 
   .home
+    width: 100%
+    height: 100%
+
+    display: flex
+    align-items: stretch
+    flex-direction: column
+
     padding: 5rem 0
 
     .title
@@ -36,5 +43,11 @@ export default {
       font-weight: 700
       font-size: 2.625rem
       margin-bottom: .75rem
+
+    .main
+      display: flex
+      flex-direction: column
+
+      flex: 1 1 auto
 
 </style>

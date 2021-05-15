@@ -1,18 +1,34 @@
 <template>
   <div class="news-list__item">
-    <img src="" alt="" />
+    <img
+      :src="news.multimedia[1].url"
+      :alt="news.multimedia[1].caption"
+    />
     <div>
-      <h6>Subtitle</h6>
-      <h3>Title</h3>
+      <h6>Science</h6>
+      <h3>{{news.title}}</h3>
     </div>
-    <small>DATE</small>
+    <small>{{published_date}}</small>
   </div>
 </template>
 
 <script>
 
+import moment from 'moment'
+
 export default {
   name: 'AppNewsListItem',
+  props: {
+    news: {
+      type: Object,
+      required: true,
+    },
+  },
+  computed: {
+    published_date: function() {
+      return moment(this.news.published_date).format('LL')
+    }
+  }
 }
 
 </script>

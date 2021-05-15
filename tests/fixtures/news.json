@@ -1,0 +1,269 @@
+[
+  {
+    "section": "us",
+    "subsection": "",
+    "title": "How a Genetic Trait in Black People Can Give the Police Cover",
+    "abstract": "Sickle cell trait has been cited in dozens of police custody deaths ruled accidental or natural, even though the condition is benign on its own, a Times investigation found.",
+    "url": "https://www.nytimes.com/2021/05/15/us/african-americans-sickle-cell-police.html",
+    "uri": "nyt://article/9772eb66-241a-538f-9bd5-7c118545ad02",
+    "byline": "By Michael LaForgia and Jennifer Valentino-DeVries",
+    "item_type": "Article",
+    "updated_date": "2021-05-15T05:00:23-04:00",
+    "created_date": "2021-05-15T05:00:23-04:00",
+    "published_date": "2021-05-15T05:00:23-04:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+      "Black Lives Matter Movement",
+      "Black People",
+      "George Floyd Protests (2020)",
+      "Police Brutality, Misconduct and Shootings",
+      "Police",
+      "Autopsies",
+      "Prison Guards and Corrections Officers",
+      "Genetics and Heredity",
+      "Sickle Cell Anemia"
+    ],
+    "org_facet": [
+
+    ],
+    "per_facet": [
+      "Chauvin, Derek (1976- )",
+      "Floyd, George (d 2020)",
+      "Wetli, Charles V"
+    ],
+    "geo_facet": [
+      "United States"
+    ],
+    "multimedia": [
+      {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-superJumbo.jpg",
+        "format": "superJumbo",
+        "height": 2048,
+        "width": 1367,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "",
+        "copyright": "Damon Casarez for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-thumbStandard.jpg",
+        "format": "Standard Thumbnail",
+        "height": 75,
+        "width": 75,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "",
+        "copyright": "Damon Casarez for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-thumbLarge.jpg",
+        "format": "thumbLarge",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "",
+        "copyright": "Damon Casarez for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-mediumThreeByTwo210.jpg",
+        "format": "mediumThreeByTwo210",
+        "height": 140,
+        "width": 210,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "",
+        "copyright": "Damon Casarez for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-articleInline.jpg",
+        "format": "Normal",
+        "height": 285,
+        "width": 190,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "",
+        "copyright": "Damon Casarez for The New York Times"
+      }
+    ],
+    "short_url": "https://nyti.ms/3tOu1ok"
+  },
+  {
+    "section": "health",
+    "subsection": "",
+    "title": "Why the C.D.C. Changed Its Advice on Masks",
+    "abstract": "Two scientific findings altered the calculus: Vaccinated people don’t transmit the virus, and the shots are effective against variants.",
+    "url": "https://www.nytimes.com/2021/05/14/health/cdc-masks-vaccines-variants.html",
+    "uri": "nyt://article/688b4c2c-8004-5e9b-972a-f402426467ab",
+    "byline": "By Apoorva Mandavilli",
+    "item_type": "Article",
+    "updated_date": "2021-05-14T22:12:39-04:00",
+    "created_date": "2021-05-14T18:30:58-04:00",
+    "published_date": "2021-05-14T18:30:58-04:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+      "your-feed-science",
+      "Vaccination and Immunization",
+      "Coronavirus Risks and Safety Concerns",
+      "Disease Rates",
+      "Coronavirus (2019-nCoV)",
+      "Clinical Trials",
+      "Infections",
+      "States (US)",
+      "Research"
+    ],
+    "org_facet": [
+      "Centers for Disease Control and Prevention",
+      "Pfizer Inc",
+      "BioNTech SE",
+      "Moderna Inc",
+      "Johnson & Johnson"
+    ],
+    "per_facet": [
+
+    ],
+    "geo_facet": [
+
+    ],
+    "multimedia": [
+      {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-superJumbo.jpg",
+        "format": "superJumbo",
+        "height": 1365,
+        "width": 2048,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday.",
+        "copyright": "Benjamin Norman for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-thumbStandard.jpg",
+        "format": "Standard Thumbnail",
+        "height": 75,
+        "width": 75,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday.",
+        "copyright": "Benjamin Norman for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-thumbLarge.jpg",
+        "format": "thumbLarge",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday.",
+        "copyright": "Benjamin Norman for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-mediumThreeByTwo210.jpg",
+        "format": "mediumThreeByTwo210",
+        "height": 140,
+        "width": 210,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday.",
+        "copyright": "Benjamin Norman for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-articleInline.jpg",
+        "format": "Normal",
+        "height": 127,
+        "width": 190,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday.",
+        "copyright": "Benjamin Norman for The New York Times"
+      }
+    ],
+    "short_url": "https://nyti.ms/3w71agK"
+  },
+  {
+    "section": "health",
+    "subsection": "",
+    "title": "How the United States Beat the Variants, for Now",
+    "abstract": "The country has managed to avoid a variant-fueled spike in coronavirus cases. Scientists say we were lucky.",
+    "url": "https://www.nytimes.com/2021/05/14/health/coronavirus-variants-united-states-of-america.html",
+    "uri": "nyt://article/0c9189e7-bdba-5bb3-b36b-747794193fcd",
+    "byline": "By Carl Zimmer and Apoorva Mandavilli",
+    "item_type": "Article",
+    "updated_date": "2021-05-14T15:42:54-04:00",
+    "created_date": "2021-05-14T15:00:16-04:00",
+    "published_date": "2021-05-14T15:00:16-04:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+      "Coronavirus (2019-nCoV)",
+      "Research",
+      "Disease Rates",
+      "Biology and Biochemistry",
+      "Vaccination and Immunization",
+      "your-feed-healthcare"
+    ],
+    "org_facet": [
+
+    ],
+    "per_facet": [
+
+    ],
+    "geo_facet": [
+
+    ],
+    "multimedia": [
+      {
+        "url": "https://static01.nyt.com/images/2021/05/13/science/00VIRUS-VARIANTS1/merlin_183247872_de93639a-4333-44b7-b9ed-8f1aa2eea28e-superJumbo.jpg",
+        "format": "superJumbo",
+        "height": 1371,
+        "width": 2048,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Medical technicians removed patient beds from an overflow tent in Apple Valley, Calif., in February after the number of Covid cases in the state dropped.",
+        "copyright": "Mario Tama/Getty Images"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/13/science/00VIRUS-VARIANTS1/00VIRUS-VARIANTS1-thumbStandard.jpg",
+        "format": "Standard Thumbnail",
+        "height": 75,
+        "width": 75,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Medical technicians removed patient beds from an overflow tent in Apple Valley, Calif., in February after the number of Covid cases in the state dropped.",
+        "copyright": "Mario Tama/Getty Images"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/13/science/00VIRUS-VARIANTS1/00VIRUS-VARIANTS1-thumbLarge.jpg",
+        "format": "thumbLarge",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Medical technicians removed patient beds from an overflow tent in Apple Valley, Calif., in February after the number of Covid cases in the state dropped.",
+        "copyright": "Mario Tama/Getty Images"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/13/science/00VIRUS-VARIANTS1/00VIRUS-VARIANTS1-mediumThreeByTwo210.jpg",
+        "format": "mediumThreeByTwo210",
+        "height": 140,
+        "width": 210,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Medical technicians removed patient beds from an overflow tent in Apple Valley, Calif., in February after the number of Covid cases in the state dropped.",
+        "copyright": "Mario Tama/Getty Images"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2021/05/13/science/00VIRUS-VARIANTS1/00VIRUS-VARIANTS1-articleInline.jpg",
+        "format": "Normal",
+        "height": 127,
+        "width": 190,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Medical technicians removed patient beds from an overflow tent in Apple Valley, Calif., in February after the number of Covid cases in the state dropped.",
+        "copyright": "Mario Tama/Getty Images"
+      }
+    ],
+    "short_url": "https://nyti.ms/3v1ouMR"
+  }
+]
