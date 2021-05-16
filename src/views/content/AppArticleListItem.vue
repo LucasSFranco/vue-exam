@@ -5,7 +5,7 @@
       :alt="formattedArticle.multimedia.smallThumb.caption"
     />
     <div>
-      <h6>Science</h6>
+      <h6>{{formattedArticle.topic}}</h6>
       <h3>{{formattedArticle.title}}</h3>
     </div>
     <small>{{formattedArticle.publishedDate}}</small>

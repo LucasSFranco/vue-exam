@@ -4,39 +4,39 @@ import Article from '@/models/Article'
 
 class Articles {
 
-  static sections = ['science', 'technology']
+  static topics = ['science', 'technology']
 
   static async getAll() {
     const data = await Promise.all(
-      Articles.sections.map(
-        async section => {
-          const result = await Articles.getBy(section)
+      Articles.topics.map(
+        async topic => {
+          const result = await Articles.getBy(topic)
 
-          return result[section]
+          return result[topic]
         }
       )
     )
 
-    const sectionsMerge = await Promise.resolve(
+    const topicsMerge = await Promise.resolve(
       Object.values(data)
         .reduce((all, section) => [...all, ...section])
     )
 
     const articlesSortedByPublishedDate = await Promise.resolve(
-      sectionsMerge
+      topicsMerge
         .sort((articleA, articleB) => articleB.publishedDate >= articleA.publishedDate ? 1 : -1)
     )
 
     return { all: articlesSortedByPublishedDate }
   }
 
-  static async getBy(section) {
-    const { data } = await api.get(`${section}.json`)
+  static async getBy(topic) {
+    const { data } = await api.get(`${topic}.json`)
 
     const articles = data.results
-      .map(result => new Article(result))
+      .map(result => new Article(result, topic))
 
-    return { [section]: articles }
+    return { [topic]: articles }
   }
 
 }

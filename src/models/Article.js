@@ -2,7 +2,8 @@ import moment from 'moment'
 
 class Article {
 
-  constructor(data) {
+  constructor(data, topic) {
+    this.topic = data?.topic ?? topic
     this.section = data.section
     this.subsection = data.subsection
     this.uri = data.uri
