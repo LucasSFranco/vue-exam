@@ -1,18 +1,18 @@
 <template>
-  <section class="news-list">
+  <section class="article-list">
     <div class="scrollbox">
-      <AppNewsModal
-        v-for="news in news.all"
-        :news="news"
-        :ref="news.uri"
+      <AppArticleModal
+        v-for="article in articles.all"
+        :article="article"
+        :ref="article.uri"
       >
-        <template #default="modal">
-          <AppNewsListItem
-            :news="news"
+        <template #trigger="modal">
+          <AppArticleListItem
+            :article="article"
             @click="modal.open"
           />
         </template>
-      </AppNewsModal>
+      </AppArticleModal>
     </div>
   </section>
 </template>
@@ -21,17 +21,20 @@
 
 import { mapState } from 'vuex'
 
-import AppNewsListItem from '@/views/content/AppNewsListItem.vue'
-import AppNewsModal from '@/views/content/AppNewsModal.vue'
+import AppArticleListItem from '@/views/content/AppArticleListItem.vue'
+import AppArticleModal from '@/views/content/AppArticleModal.vue'
 
 export default {
-  name: 'AppNewsList',
+  name: 'AppArticleList',
   components: {
-    AppNewsListItem,
-    AppNewsModal,
+    AppArticleListItem,
+    AppArticleModal,
   },
   computed: {
-    ...mapState(['news'])
+    ...mapState(['articles']),
+  },
+  beforeMount() {
+    console.log(this.articles)
   }
 }
 
@@ -39,7 +42,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  .news-list
+  .article-list
     flex: 1 1 auto
 
     position: relative

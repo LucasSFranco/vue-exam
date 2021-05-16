@@ -1,6 +1,9 @@
 <template>
 
-  <slot :open="open" />
+  <slot
+    name="trigger"
+    :open="open"
+  />
 
   <teleport to="body">
     <div

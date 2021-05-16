@@ -4,23 +4,31 @@
       <h1 class="title">News Portal</h1>
     </AppContainer>
     <AppContainer class="main">
-      <AppNewsList />
+      <AppArticleList />
     </AppContainer>
   </main>
 </template>
 
 <script>
 
+import { mapActions } from 'vuex'
+
 import AppContainer from '@/components/AppContainer.vue'
-import AppNewsList from '@/views/content/AppNewsList.vue'
+import AppArticleList from '@/views/content/AppArticleList.vue'
 
 export default {
   name: 'AppHome',
   components: {
     AppContainer,
 
-    AppNewsList,
+    AppArticleList,
   },
+  async beforeMount() {
+    await this.getAllArticles()
+  },
+  methods: {
+    ...mapActions(['getAllArticles']),
+  }
 }
 
 </script>

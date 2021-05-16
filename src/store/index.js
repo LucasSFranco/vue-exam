@@ -1,16 +1,23 @@
 import { createStore } from 'vuex'
 
-import { results } from '@/__temp__/db.json'
+import Articles from '@/services/Articles'
 
 export default createStore({
   state: {
-    news: {
-      all: results,
+    articles: {},
+  },
+
+  mutations: {
+    CHANGE_ARTICLES: (state, payload) => {
+      state.articles = { ...state.articles, ...payload }
     },
   },
-  mutations: {
 
-  },
   actions: {
+    async getAllArticles({ commit }) {
+      const articles = await Articles.getAll()
+
+      commit('CHANGE_ARTICLES', articles)
+    },
   },
 })

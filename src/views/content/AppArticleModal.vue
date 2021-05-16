@@ -1,15 +1,18 @@
 <template>
   <AppModal>
 
-    <template #default="modal">
-      <slot :open="modal.open" />
+    <template #trigger="modal">
+      <slot
+        name="trigger"
+        :open="modal.open"
+      />
     </template>
 
     <template #content>
-      <div class="modal__news-card">
-        <h3>{{news.title}}</h3>
-        <a target="_blank" :href="news.url">{{news.url}}</a>
-        <p>{{news.abstract}}</p>
+      <div class="modal__article-card">
+        <h3>{{article.title}}</h3>
+        <a target="_blank" :href="article.url">{{article.url}}</a>
+        <p>{{article.abstract}}</p>
       </div>
     </template>
   </AppModal>
@@ -20,9 +23,9 @@
 import AppModal from '@/components/AppModal.vue'
 
 export default {
-  name: 'AppNewsModal',
+  name: 'AppArticleModal',
   props: {
-    news: {
+    article: {
       type: Object,
       required: true,
     },
@@ -36,7 +39,7 @@ export default {
 
 <style lang="sass" scoped>
 
-  .modal__news-card
+  .modal__article-card
     width: 100vw
     max-width: 600px
 

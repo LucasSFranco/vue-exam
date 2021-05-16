@@ -1,41 +1,39 @@
 <template>
-  <div class="news-list__item">
+  <div class="article-list__item">
     <img
-      :src="news.multimedia[1].url"
-      :alt="news.multimedia[1].caption"
+      :src="formattedArticle.multimedia.smallThumb.url"
+      :alt="formattedArticle.multimedia.smallThumb.caption"
     />
     <div>
       <h6>Science</h6>
-      <h3>{{news.title}}</h3>
+      <h3>{{formattedArticle.title}}</h3>
     </div>
-    <small>{{published_date}}</small>
+    <small>{{formattedArticle.publishedDate}}</small>
   </div>
 </template>
 
 <script>
 
-import moment from 'moment'
-
 export default {
-  name: 'AppNewsListItem',
+  name: 'AppArticleListItem',
   props: {
-    news: {
+    article: {
       type: Object,
       required: true,
     },
   },
   computed: {
-    published_date: function() {
-      return moment(this.news.published_date).format('LL')
-    }
-  }
+    formattedArticle() {
+      return this.article.format('LL')
+    },
+  },
 }
 
 </script>
 
 <style lang="sass" scoped>
 
-  .news-list__item
+  .article-list__item
     display: flex
     align-items: center
     gap: 1.5rem
