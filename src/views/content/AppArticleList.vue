@@ -33,9 +33,6 @@ export default {
   computed: {
     ...mapState(['articles']),
   },
-  beforeMount() {
-    console.log(this.articles)
-  }
 }
 
 </script>

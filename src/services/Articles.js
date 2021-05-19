@@ -34,7 +34,7 @@ class Articles {
     const { data } = await api.get(`${topic}.json`)
 
     const articles = data.results
-      .map(result => new Article(result, topic))
+      .map(result => new Article({ topic, ...result }))
 
     return { [topic]: articles }
   }

@@ -1,0 +1,53 @@
+[
+  {
+    "topic": "science",
+    "section": "us",
+    "subsection": "",
+    "title": "How a Genetic Trait in Black People Can Give the Police Cover",
+    "abstract": "Sickle cell trait has been cited in dozens of police custody deaths ruled accidental or natural, even though the condition is benign on its own, a Times investigation found.",
+    "url": "https://www.nytimes.com/2021/05/15/us/african-americans-sickle-cell-police.html",
+    "uri": "nyt://article/9772eb66-241a-538f-9bd5-7c118545ad02",
+    "byline": "By Michael LaForgia and Jennifer Valentino-DeVries",
+    "publishedDate": "2021-05-15T05:00:23-04:00",
+    "multimedia": {
+      "smallThumb": {
+        "url": "https://static01.nyt.com/images/2021/04/30/multimedia/00sicklecell1/merlin_187136928_faa677b1-7b87-49e1-8f02-f8a6ad5a2c0c-thumbStandard.jpg",
+        "caption": ""
+      }
+    }
+  },
+  {
+    "topic": "science",
+    "section": "health",
+    "subsection": "",
+    "title": "Why the C.D.C. Changed Its Advice on Masks",
+    "abstract": "Two scientific findings altered the calculus: Vaccinated people don’t transmit the virus, and the shots are effective against variants.",
+    "url": "https://www.nytimes.com/2021/05/14/health/cdc-masks-vaccines-variants.html",
+    "uri": "nyt://article/688b4c2c-8004-5e9b-972a-f402426467ab",
+    "byline": "By Apoorva Mandavilli",
+    "publishedDate": "2021-05-14T18:30:58-04:00",
+    "multimedia": {
+      "smallThumb": {
+        "url": "https://static01.nyt.com/images/2021/05/14/multimedia/14virus-masks/14virus-masks-thumbStandard.jpg",
+        "caption": "Masked and unmasked pedestrians walked around Manhattan on Friday."
+      }
+    }
+  },
+  {
+    "topic": "technology",
+    "section": "us",
+    "subsection": "politics",
+    "title": "‘A Perpetual Motion Machine’: How Disinformation Drives Voting Laws",
+    "abstract": "After former President Donald J. Trump undermined public confidence in elections, Republican lawmakers are defending voting restrictions by citing a lack of public confidence.",
+    "url": "https://www.nytimes.com/2021/05/13/us/politics/disinformation-voting-laws.html",
+    "uri": "nyt://article/e0c62882-c35e-5236-b851-a35b5500516d",
+    "byline": "By Maggie Astor",
+    "publishedDate": "2021-05-13T05:00:18-04:00",
+    "multimedia": {
+      "smallThumb": {
+        "url": "https://static01.nyt.com/images/2021/05/04/business/00voting-disinfo1/00voting-disinfo1-thumbStandard.jpg",
+        "caption": "A polling site in Adel, Iowa, on Oct. 5, the state’s first day of in-person voting. After the election, Iowa Republicans passed a law that limits early voting."
+      }
+    }
+  }
+]
