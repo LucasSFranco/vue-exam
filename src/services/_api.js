@@ -5,7 +5,7 @@ const api = axios.create({
 })
 
 api.interceptors.request.use(config => {
-  config.params ??= {}
+  config.params = config.params || {}
   config.params['api-key'] = 'RAGG9REMGabQ9hJ0ID1JLllLAwToUEx1'
 
   return config

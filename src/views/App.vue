@@ -1,15 +1,20 @@
 <template>
-  <AppHome />
+  <router-view />
 </template>
 
 <script>
 
-import AppHome from '@/views/AppHome.vue'
+import { mapActions } from 'vuex'
 
 export default {
   name: 'App',
-  components: {
-    AppHome,
+  beforeMount() {
+    this.sync()
+  },
+  methods: {
+    ...mapActions([
+      'sync',
+    ]),
   },
 }
 

@@ -1,14 +1,13 @@
 import { createApp } from 'vue'
 
-import App from '@/views/App.vue'
-
-import store from '@/store'
-
-import icons from '@/assets/icons'
-
 import '@/assets/fonts'
+import icons from '@/assets/icons'
+import store from '@/store'
+import router from '@/views/router'
+import App from '@/views/App.vue'
 
 createApp(App)
   .component('Icon', icons)
   .use(store)
+  .use(router)
   .mount('#app')
