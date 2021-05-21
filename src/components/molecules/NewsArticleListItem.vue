@@ -60,6 +60,19 @@ export default {
     padding: 1rem;
     position: relative;
 
+    @media (min-width: 768px) {
+      box-shadow: initial;
+      flex-direction: initial;
+
+      padding: 1rem 3rem;
+
+      transition: 250ms border-color, 250ms box-shadow;
+    }
+
+    @media (min-width: 1280px) {
+      padding: 1rem;
+    }
+
     .accessory {
       border-top: 1px solid var(--accent-secondary);
       margin-top: .5rem;
@@ -176,12 +189,6 @@ export default {
       right: 1rem;
     }
 
-    &:hover {
-      h3 {
-        text-decoration: underline;
-      }
-    }
-
     & + & {
       margin-top: 1.5rem;
 
@@ -192,30 +199,21 @@ export default {
       }
     }
 
-    &:hover {
-      @media (min-width: 768px) {
-        border-color: transparent;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, .05), 0 0 5px rgba(0, 0, 0, .06);
-      }
-    }
-
     &:hover + & {
       @media (min-width: 768px) {
         border-color: transparent;
       }
     }
 
-    @media (min-width: 768px) {
-      box-shadow: initial;
-      flex-direction: initial;
+    &:hover {
+      h3 {
+        text-decoration: underline;
+      }
 
-      padding: 1rem 3rem;
-
-      transition: 250ms border-color, 250ms box-shadow;
-    }
-
-    @media (min-width: 1280px) {
-      padding: 1rem;
+      @media (min-width: 768px) {
+        border-color: transparent !important;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .05), 0 0 5px rgba(0, 0, 0, .06);
+      }
     }
   }
 

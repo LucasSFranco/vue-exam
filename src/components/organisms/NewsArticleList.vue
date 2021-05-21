@@ -25,9 +25,9 @@
       </template>
     </template>
 
-    <div ref="scrollTrigger" />
+    <div class="scroll-trigger" ref="scrollTrigger" />
 
-    <NewsArticleListItemSkeleton v-if="count[activeTab] !== (articles[activeTab]?.length || [])" v-for="item in 10" :key="item" />
+    <NewsArticleListItemSkeleton v-if="count[activeTab] !== (articles[activeTab]?.length || [])" v-for="item in items" :key="item" />
 
   </section>
 </template>
@@ -42,6 +42,11 @@ import NewsArticleModal from '@/components/molecules/NewsArticleModal.vue'
 
 export default {
   name: 'NewsHeader',
+  data() {
+    return {
+      items: [...new Array(10).keys()]
+    }
+  },
   components: {
     NewsArticleListItem,
     NewsArticleListItemSkeleton,

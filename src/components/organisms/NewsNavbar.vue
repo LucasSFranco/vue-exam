@@ -2,14 +2,21 @@
   <AppContainer class="navbar">
     <h1>{{activeTab}}</h1>
     <nav>
-      <a
+      <router-link
         v-for="tab in tabs"
         :key="tab"
         :class="{ 'selected': tab === activeTab }"
+        :to="{
+          name: 'News',
+          params: {
+            type: tab !== 'all news' ? 'topic' : '',
+            topic: tab !== 'all news' ? tab : '',
+          } 
+        }"
         @click="changeActiveTab(tab)"
       >
         {{tab}}
-      </a>
+      </router-link>
     </nav>
   </AppContainer>
 </template>
