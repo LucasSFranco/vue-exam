@@ -52,4 +52,5 @@ $ yarn test:e2e
 
 $ npm run test:e2e
 ```
+Após rodar os testes, é possível visualizar o _coverage report_ no browser: __vue-exam/coverage/lcov-report/src/index.html__
 
