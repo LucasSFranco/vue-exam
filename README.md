@@ -44,3 +44,12 @@ $ npm install
 $ npm run serve
 ```
 
+Testes end-to-end:
+```bash
+$ yarn test:e2e
+
+# ou
+
+$ npm run test:e2e
+```
+
