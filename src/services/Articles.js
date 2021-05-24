@@ -17,6 +17,7 @@ class Articles {
 
           await Promise.all(
             articles.map(async article => {
+              
               const alreadyExists = await db.articles.get({ uri: article.uri })
 
               if(alreadyExists) return

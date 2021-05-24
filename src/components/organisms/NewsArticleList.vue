@@ -64,6 +64,7 @@ export default {
     const observer = new IntersectionObserver(entries => {
       const [entry] = entries
       if(entry.isIntersecting) {
+        console.log('intersect')
         if(this.articles[this.activeTab]?.length) {
           if(this.activeTab !== 'all news')
             this.getTopicArticles(this.activeTab)
@@ -73,6 +74,7 @@ export default {
       }
 
       if(this.count[this.activeTab] === (this.articles[this.activeTab]?.length || [])) {
+        console.log('disconnect')
         observer.disconnect()
       }
     })

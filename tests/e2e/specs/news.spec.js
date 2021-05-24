@@ -6,6 +6,7 @@ import requests from '../../fixtures/requests.json'
 describe("News", () => {
 
   before(async () => {
+    cy.log(db, Cypress.env('test'))
     await db.articles.bulkAdd(articles)
   })
 
@@ -22,6 +23,7 @@ describe("News", () => {
   })
 
   after(() => {
+    cy.log(db)
     db.delete()
   })
 
