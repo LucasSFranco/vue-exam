@@ -1,4 +1,3 @@
-import articles from '../../fixtures/articles.json'
 import requests from '../../fixtures/requests.json'
 
 describe('News', () => {
