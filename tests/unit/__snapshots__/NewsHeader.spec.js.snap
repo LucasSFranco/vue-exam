@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Header matches snapshot 1`] = `<header class="news header"><a target="_blank" rel="noreferrer" href="https://www.nytimes.com/" data-test="nyt-logo"><img src="" alt="The New York Times"></a></header>`;

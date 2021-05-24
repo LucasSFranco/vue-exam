@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Modal matches snapshot 1`] = `
+" <div class=\\"article modal__card\\">
+   <div class=\\"header\\">
+     <app-breadcrumb-stub items=\\"science,us,\\"></app-breadcrumb-stub>
+   </div>
+   <div class=\\"body\\">
+     <figure>
+       <picture style=\\"padding-top: 85.64453125%;\\"><img src=\\"https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-superJumbo.jpg\\" alt=\\"\\"></picture>
+       <figcaption> <span>Christopher Lee for The New York Times</span></figcaption>
+     </figure>
+     <div>
+       <h6></h6>
+       <h3>A Serene Shore Resort, Except for the SpaceX ‘Ball of Fire’</h3><span>By Edgar Sandoval and Richard Webner</span><span>May 24, 2021 11:24 AM</span>
+       <p>For years, those in a rural Texas village cherished living among nature and wildlife. Elon Musk’s SpaceX has brought new fears and the promise of an economic boost to one of America’s poorest corners.</p>
+     </div>
+   </div>
+   <div class=\\"footer\\"><a class=\\"button\\" target=\\"_blank\\" rel=\\"noreferrer\\" href=\\"https://www.nytimes.com/2021/05/24/us/space-x-boca-chica-texas.html\\">
+       <icon-stub icon=\\"external-link-alt\\"></icon-stub> READ
+     </a></div>
+ </div>"
+`;

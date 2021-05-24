@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News Button Return To Top matches snapshot 1`] = `
+<button class="button return-to-top">
+  <icon-stub icon="angle-double-up"></icon-stub>
+</button>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article List Item matches snapshot 1`] = `
+<div class="article list__item">
+  <div class="accessory"><time>May 24, 2021</time></div>
+  <div class="main">
+    <figure>
+      <picture style="padding-top: 85.64453125%;">
+        <source media="(min-width: 768px)" srcset="https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/00SpaceX-Texasborder-1-mediumThreeByTwo210-v2.jpg"><img src="https://static01.nyt.com/images/2021/05/20/us/00SpaceX-Texasborder-1/merlin_187098138_f5c9cf82-e2ba-4877-956e-0303dcd7859d-superJumbo.jpg" alt="">
+      </picture>
+      <figcaption>Christopher Lee for The New York Times</figcaption>
+    </figure>
+    <h6></h6>
+    <h3>A Serene Shore Resort, Except for the SpaceX ‘Ball of Fire’</h3>
+    <p>For years, those in a rural Texas village cherished living among nature and wildlife. Elon Musk’s SpaceX has brought new fears and the promise of an economic boost to one of America’s poorest corners.</p><span>By Edgar Sandoval and Richard Webner</span>
+  </div>
+</div>
+`;
