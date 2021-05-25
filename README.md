@@ -48,3 +48,8 @@ $ yarn test:e2e
 ```
 ___OBS___: Após executar os testes e2e, é possível visualizar o _coverage report_ dos testes: `react-exam/coverage/lcov-report/index.html`.
 
+### PWA
+Na aplicação em Vue.js, foi elaborada uma PWA:
+![App](/.github/app.jpeg)
+
+![Icon](/.github/icon.jpeg)
