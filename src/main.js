@@ -5,6 +5,7 @@ import icons from '@/assets/icons'
 import router from '@/router'
 import store from '@/store'
 import App from '@/views/App.vue'
+import './registerServiceWorker'
 
 createApp(App)
   .component('Icon', icons)
