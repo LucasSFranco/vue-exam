@@ -50,6 +50,6 @@ ___OBS___: Após executar os testes e2e, é possível visualizar o _coverage rep
 
 ### PWA
 Na aplicação em Vue.js, foi elaborada uma PWA:
-![App](/.github/app.jpeg)
+<img alt="App" title="App" src=".github/app.jpeg" width="300" />
 
 ![Icon](/.github/icon.jpeg)
