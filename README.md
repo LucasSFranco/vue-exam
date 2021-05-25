@@ -19,7 +19,9 @@ O aplicativo é um portal de notícias desenvolvido em Vue.js (3.x) para a exibi
   - services: possui a integração com os recursos externos (IndexedDB e API do NYT).
   - store: serve para gerenciar o estado da aplicação. 
   - styles: possui os estilos globais da aplicação.
-  - views: possui as rotas e as páginas da aplicação.
+  - router: possui as rotas da aplicação.
+  - views: possui as páginas da aplicação.
+- Testes: Foi optado por fazer os testes mais importantes da aplicação por meio do Cypress, no qual é testada toda a funcionalidade, para facilitar a equalização dos testes nos dois projetos. Além disso, também foram feitos alguns testes de componente, sobretudo utilizando _snapshot_, para garantir que os componentes estão sendo gerados corretamente.
   
 ### 🔧 Instalação e execução
 Clone o projeto e acesse a pasta:
@@ -27,30 +29,22 @@ Clone o projeto e acesse a pasta:
 $ https://github.com/LucasSFranco/vue-exam.git && cd vue-exam
 ```
 
-Siga os passos abaixo:
+Comandos:
 ```bash
-# instale as dependências
+# instala as dependências
 $ yarn
 
-# inicie o projeto
+# compila e recarrega automaticamente para desenvolvimento
 $ yarn serve
 
-# ou
+# compila e minifica para produção
+$ yarn build
 
-# instale as dependências
-$ npm install
+# executa os testes unitários
+$ yarn test:unit
 
-# inicie o projeto
-$ npm run serve
-```
-
-Testes end-to-end:
-```bash
+# executa os testes e2e
 $ yarn test:e2e
-
-# ou
-
-$ npm run test:e2e
 ```
-Após rodar os testes, é possível visualizar o _coverage report_ no browser: __vue-exam/coverage/lcov-report/src/index.html__
+___OBS___: Após executar os testes e2e, é possível visualizar o _coverage report_ dos testes: `react-exam/coverage/lcov-report/index.html`.
 
