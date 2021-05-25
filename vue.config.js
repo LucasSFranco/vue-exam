@@ -1,7 +1,7 @@
 module.exports = {
   pwa: {
     name: 'News Portal - Vue.js',
-    themeColor: '#ffffff',
-    msTileColor: '#000000'
+    themeColor: '#000000',
+    msTileColor: '#ffffff'
   }
 }
