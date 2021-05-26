@@ -14,4 +14,20 @@ describe('News Button Return To Top', () => {
 
     expect(wrapper.html()).toMatchSnapshot()
   })
+
+  it('calls returnToTop() method on button click', () => {
+    const wrapper = shallowMount(NewsButtonReturnToTop, {
+      global: {
+        stubs: {
+          Icon: true
+        }
+      }
+    })
+
+    wrapper.vm.returnToTop = jest.fn()
+
+    wrapper.find('button').trigger('click')
+
+    expect(wrapper.vm.returnToTop).toHaveBeenCalled()
+  })
 })

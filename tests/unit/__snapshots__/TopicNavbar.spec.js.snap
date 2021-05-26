@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topic Navbar matches snapshot on root path 1`] = `
+<h1 data-test="topic-navbar-title">all news</h1>
+<nav><a class="selected" data-test="topic-navbar-item"> all news </a><a class="" data-test="topic-navbar-item">science</a><a class="" data-test="topic-navbar-item">technology</a></nav>
+`;
+
+exports[`Topic Navbar matches snapshot on topic path 1`] = `
+<h1 data-test="topic-navbar-title">science</h1>
+<nav><a class="" data-test="topic-navbar-item"> all news </a><a class="selected" data-test="topic-navbar-item">science</a><a class="" data-test="topic-navbar-item">technology</a></nav>
+`;
